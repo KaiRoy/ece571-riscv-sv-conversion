@@ -1,5 +1,5 @@
 # ece571-riscv-sv-conversion
-Project attempting to convert  emil's risc-v implementation from verilog to systemverilog
+Project attempting to convert RISC-V Model from Verilog to SystemVerilog
 
 <!-- Insert Image Here -->
 
@@ -18,27 +18,20 @@ Project attempting to convert  emil's risc-v implementation from verilog to syst
 
 ## Description
 
-The goal of this project attempts to convert emil's RISC-V implementation from Verilog to SystemVerilog. This project seeks to prove our understanding of SystemVerilog for our "Intro to SystemVerilog" graduate course. The RISC-V model in question is a RV32I variant which is the simplist variant to implement. 
+The goal of this project attempts to convert emil's RISC-V implementation from Verilog to SystemVerilog. This project seeks to prove our understanding of SystemVerilog for our "Intro to SystemVerilog" graduate course. RISC-V has many different variants as the ISA was deisgned to be as flexible and expandable as possible. This model is based on the RV32I variant which is one of the primary base integer variants. The "I" in the descriptor refers the variant being one of the base integer variants and the "32" refers to the user addressing size. This means our model needs to handle the most basic set of ISA instructions with 32-bit addressing. There are other variants and extension modules that could be added to the model, but that is out of scope of this project. 
 
-
-<!-- Structure -->
-<!-- Block Diagram -->	
-![Basic RISC Architecture](Assets/BasicArchitecture.jpg)
-
-<!-- RV32I Description -->
-
-
+More information about RISC-V can be found ![here](https://riscv.org/) and ![here](https://wiki.riscv.org/)
 
 <!-- Output Format/Modes -->
-
-
 
 <!-- Insert Image of Format? -->
 
 
 ## Designs
 
-<!-- Create a Block Diagram of the System?-->
+The model that this project is building off of is designed as a behavioral model instead of an architectural model. We decided to keep this level of abstraction and convert the model to use SV data types and SV interconnects. Other changes were also made to the design to help the team demonstrate our understanding of SystemVerilog, even if the changes were not needed functionally. Below is a block diagram of the model. 
+
+**High Level Block Diagram**
 ![High Level Block Diagram](Assets/HighLevelBlockDiagram.png)
 
 <!-- Design Implementation Choices-->
@@ -48,15 +41,17 @@ The goal of this project attempts to convert emil's RISC-V implementation from V
 
 ## Current State of the Project
 
-
+By the end of the project we were successful in converting the original Verilog model to SystemVerilog and maintain the functionality. 
 
 
 ## Post Project Notes
 
-
+This project could be further expanded if desired in the future. With RISC-V being very module, different extension modules could be added to the design. Other expansions to the model include the addition pipelining and even adding more complex cache models to the system and adding integration for more complex cache and memory protocols. 
 
 
 ## Installation
+**Repo Structre** 
+
 The individual contributions folder contains separate folders for each member of the group.
 In these folders are copies of the files that each person contributed to the project.
 A notes file is also included for anyone who worked on/modified other files.
