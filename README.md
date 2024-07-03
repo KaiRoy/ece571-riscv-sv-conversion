@@ -18,12 +18,12 @@ Project attempting to convert  emil's risc-v implementation from verilog to syst
 
 ## Description
 
-The goal of this project attempts to convert emil's RISC-V implementation from Verilog to SystemVerilog. This project seeks to prove our understanding of SystemVerilog for our Intro to SV graduate course. The RISC-V model in question is a RV32I variant which is the simplicity variant to implement. 
+The goal of this project attempts to convert emil's RISC-V implementation from Verilog to SystemVerilog. This project seeks to prove our understanding of SystemVerilog for our "Intro to SystemVerilog" graduate course. The RISC-V model in question is a RV32I variant which is the simplist variant to implement. 
 
 
 <!-- Structure -->
 <!-- Block Diagram -->	
-![System Block Diagram](Assets/BlockDiagram.png)
+![Basic RISC Architecture](Assets/BasicArchitecture.jpg)
 
 <!-- RV32I Description -->
 
@@ -39,6 +39,7 @@ The goal of this project attempts to convert emil's RISC-V implementation from V
 ## Designs
 
 <!-- Create a Block Diagram of the System?-->
+![High Level Block Diagram](Assets/HighLevelBlockDiagram.png)
 
 <!-- Design Implementation Choices-->
 
@@ -95,8 +96,7 @@ If your project has a lot of features, list them here.
 
 <!-- List your collaborators, if any, with links to their GitHub profiles. -->
 - Kai Roy
-- Nick Allmeyer
-- Kamal Smith
-- Jesus Zavala
-- Daisy Perez
+- Sri Sai Sumanth Yadalapalli 
+- Shruti Koth
+- Vijaya Manikanta Kotagiri 
 
