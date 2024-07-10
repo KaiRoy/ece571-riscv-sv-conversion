@@ -35,7 +35,7 @@ The model that this project is building off of is designed as a behavioral model
 ![High Level Block Diagram](Assets/HighLevelBlockDiagram.png)
 
 <!-- Design Implementation Choices-->
-
+The biggest change to the model was the addition of an interface to hold all of the data paths/variables that are shared between the different instructions. Inside the interface is also a collection of Modports for each instruction module to streamline the instantiation process. 
 
 
 
