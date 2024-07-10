@@ -2,7 +2,7 @@ interface  Instr_IO_cpu_sig (
 	input logic clk,
     input logic reset,
 	output logic [31:0] iaddr,  //Stores current Program counter value
-	output logic [31:0]  pc,     //Stores the value that is to be assigned in the next clk cycle to Program counter
+	output logic [31:0]  pc,    //Stores the value that is to be assigned in the next clk cycle to Program counter
     output logic [31:0] x31
 	);
 	 
